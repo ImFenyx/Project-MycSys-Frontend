@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-
+    transition: 0.5s;
 }
 
 .title {
@@ -21,7 +21,11 @@ body {
     border-radius: 10px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-
+    transition: 0.5s;
+    
+  }
+  .title:hover {
+    box-shadow: 0 0 50px 15px;
   }
 
   .login_block form {
