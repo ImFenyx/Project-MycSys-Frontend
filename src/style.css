@@ -1,0 +1,71 @@
+body {
+    display: flex; /* Make the body a flex container */
+    flex-direction: column;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Set minimum height for viewport coverage */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Set a basic font family */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    transition: 0.5s;
+}
+
+.title {
+    text-align: center; /* Center content within the .title div */
+    padding: 80px;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    backdrop-filter: blur(16px) saturate(180%);
+    transition: 0.5s;
+    
+  }
+  .title:hover {
+    box-shadow: 0 0 50px 15px;
+  }
+
+  .login_block form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login_block label {
+    margin-bottom: 5px; /* Add space between the label and input */
+  }
+  
+  .login_block input {
+    padding: 5px;
+    border: 1px solid #2b2b2b;
+    border-radius: 3px;
+    margin-bottom: 10px; /* Add space between the inputs */
+  }
+  
+  .login_block input[type="submit"] {
+    margin-top: 10px; /* Add space above the submit button */
+    background-color: #2d7a00;
+    padding: 10px;
+    border-radius: 12px;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14pt;
+  }
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: rgb(77, 124, 253);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
